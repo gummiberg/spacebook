@@ -1,4 +1,5 @@
 ActiveAdmin.register Post do
+  permit_params :title, :text
 
 
   # See permitted parameters documentation:
